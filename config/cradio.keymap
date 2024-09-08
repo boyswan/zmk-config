@@ -57,8 +57,17 @@
             bindings = <
 &kp LS(LBRC)   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RBRC)     &none   &trans    &trans    &trans     &trans
 &kp LS(DQT)    &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(PLUS)     &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT
-&kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)     &kp HASH       &kp LS(PIPE)     &trans  &trans    &trans    &trans     &trans
+&kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)     &kp NUHS       &kp LS(PIPE)     &trans  &trans    &trans    &trans     &trans
                                             &kp LS(RPAR)   &kp LS(UNDER)    &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
     };
